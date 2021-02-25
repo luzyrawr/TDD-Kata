@@ -8,10 +8,7 @@ namespace StringCalculatorKata
         {
             var arrNumbers = numbers.Split(",");
 
-            if (arrNumbers[0] == "")
-                return "0";
-
-            return string.Empty;
+            return arrNumbers[0] == "" ? "0" : string.Empty;
         }
     }
 }
