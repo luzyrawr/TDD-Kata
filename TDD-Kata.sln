@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata", "Str
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringCalculator", "StringCalculator", "{57E06196-C36E-48C4-B29D-C97E5E921F64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata.Test", "StringCalculatorKata.Test\StringCalculatorKata.Test.csproj", "{9D4D9781-ED11-4296-AE30-ADBCB330CE2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{30A7EC0C-D4A2-4960-8556-43224767555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30A7EC0C-D4A2-4960-8556-43224767555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30A7EC0C-D4A2-4960-8556-43224767555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4D9781-ED11-4296-AE30-ADBCB330CE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4D9781-ED11-4296-AE30-ADBCB330CE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4D9781-ED11-4296-AE30-ADBCB330CE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4D9781-ED11-4296-AE30-ADBCB330CE2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{30A7EC0C-D4A2-4960-8556-43224767555A} = {57E06196-C36E-48C4-B29D-C97E5E921F64}
+		{9D4D9781-ED11-4296-AE30-ADBCB330CE2A} = {57E06196-C36E-48C4-B29D-C97E5E921F64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BEA26FD-9DE7-41C0-A346-0BD768B64D94}
