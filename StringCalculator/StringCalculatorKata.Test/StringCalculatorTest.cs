@@ -13,6 +13,8 @@ namespace StringCalculatorKata.Test
         [TestCase("","0")]
         [TestCase("1","1")]
         [TestCase("1,2","3")]
+        [TestCase("1,2,3","6")]
+        [TestCase("1\n2,3","6")]
         public void AddReturnsSum(string input, string expectedResult)
         {
             var stringCalculator = new StringCalculator();
