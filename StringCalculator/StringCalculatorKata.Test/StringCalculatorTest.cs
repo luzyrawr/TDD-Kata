@@ -23,7 +23,17 @@ namespace StringCalculatorKata.Test
             Assert.AreEqual(expectedResult, result);
         }
 
-        [TestCase("1,-2,-3\n-4","negatives not allowed: -2, -3, -4")]        
+        [Test]
+        [TestCase(new string[] { "1","-2","-3"},"-2,-3")]
+        [TestCase(new string[] { "1","2","3"},"")]
+        public void hasNegativesReturnsNegatives(string[] input, string expectedResult)
+        {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.hasNegatives(input);
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [TestCase("1,-2,-3\n-4","negatives not allowed: -2,-3,-4")]        
         public void AddReturnsError(string input, string expectedMessage)
         {
             var stringCalculator = new StringCalculator();
