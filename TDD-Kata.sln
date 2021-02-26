@@ -8,9 +8,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCalculatorKata.Test", "StringCalculator\StringCalculatorKata.Test\StringCalculatorKata.Test.csproj", "{94276D88-301E-487E-A23A-8EAEC96B4A95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringCalculator", "StringCalculator", "{AF1B4EFB-0066-4A82-A2B7-E6E17159A9AC}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Downloads\StringCalculatorKata_v1.pdf = ..\..\..\..\Downloads\StringCalculatorKata_v1.pdf
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
