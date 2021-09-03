@@ -19,7 +19,5 @@ namespace RomanNumeralsKata.Tests
         {
             Assert.AreEqual(expected, RomanNumerals.Parser(romanNumber));
         }        
-    }
-
-    
+    }    
 }
