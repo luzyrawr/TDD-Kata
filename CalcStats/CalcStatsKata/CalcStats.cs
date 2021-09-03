@@ -18,7 +18,6 @@ namespace CalcStatsKata
         public int GetMin => _numbers.Min();
         public int GetMax => _numbers.Max();
         public double GetCount => _numbers.Count();
-        public double GetAvg =>  _numbers.Average();
-        
+        public double GetAvg =>  _numbers.Average();        
     }
 }
