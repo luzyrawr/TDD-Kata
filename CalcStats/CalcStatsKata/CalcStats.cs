@@ -15,24 +15,10 @@ namespace CalcStatsKata
             _numbers = numbers;
         }
 
-        public int GetMin()
-        {   
-            return _numbers.Min();
-        }
-
-        public int GetMax()
-        {
-            return _numbers.Max();
-        }
-
-        public double GetCount()
-        {
-            return _numbers.Count();
-        }
-
-        public double GetAvg()
-        {
-            return _numbers.Average();
-        }
+        public int GetMin => _numbers.Min();
+        public int GetMax => _numbers.Max();
+        public double GetCount => _numbers.Count();
+        public double GetAvg =>  _numbers.Average();
+        
     }
 }

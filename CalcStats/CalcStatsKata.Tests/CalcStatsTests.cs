@@ -26,7 +26,6 @@ namespace CalcStatsKata.Tests
             Assert.Throws<ArgumentNullException>(() =>
             {
                 var calcStats = new CalcStats(null);
-                calcStats.GetMin();
             });
         }
         
@@ -34,14 +33,14 @@ namespace CalcStatsKata.Tests
         public void GetMin_OneNumber_ReturnsNumber()
         {
             var calcStats = new CalcStats(-1);
-            Assert.AreEqual(-1, calcStats.GetMin());
+            Assert.AreEqual(-1, calcStats.GetMin);
         }
 
         [Test]
         public void GetMin_Numbers_ReturnsMin()
         {
             var calcStats = new CalcStats(-1, 0, 4, -4, 10);
-            Assert.AreEqual(-4, calcStats.GetMin());
+            Assert.AreEqual(-4, calcStats.GetMin);
         }
 
         [Test]
@@ -50,7 +49,6 @@ namespace CalcStatsKata.Tests
             Assert.Throws<ArgumentNullException>(() =>
             {
                 var calcStats = new CalcStats(null);
-                calcStats.GetMax();
             });
         }
 
@@ -58,21 +56,21 @@ namespace CalcStatsKata.Tests
         public void GetMax_Numbers_ReturnsMax()
         {
             var calcStats = new CalcStats(4, 5, 1, 0, 23);
-            Assert.AreEqual(23, calcStats.GetMax());
+            Assert.AreEqual(23, calcStats.GetMax);
         }
 
         [Test]
         public void GetCount_Numbers_ReturnsCount()
         {
             var calcStats = new CalcStats(4, 5, 1, 0, 23);
-            Assert.AreEqual(5, calcStats.GetCount());
+            Assert.AreEqual(5, calcStats.GetCount);
         }
 
         [Test]
         public void GetAvg_Numbers_ReturnsAvg()
         {
             var calcStats = new CalcStats(10, 9, 8, 6, 10);
-            Assert.AreEqual(8.6, calcStats.GetAvg());
+            Assert.AreEqual(8.6, calcStats.GetAvg);
         }
     }
 }
