@@ -23,15 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzKata.Tests", "FizzB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanNumerals", "RomanNumerals", "{D05364F7-28F1-4EFF-A077-2AA118DD7E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralsKata", "RomanNumerals\RomanNumeralsKata\RomanNumeralsKata.csproj", "{ADBCA940-797D-468C-98B8-170FC87DF99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralsKata", "RomanNumerals\RomanNumeralsKata\RomanNumeralsKata.csproj", "{ADBCA940-797D-468C-98B8-170FC87DF99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralsKata.Tests", "RomanNumerals\RomanNumeralsKata.Tests\RomanNumeralsKata.Tests.csproj", "{D1F0E3C6-F310-442B-8AD5-253EC0621A43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralsKata.Tests", "RomanNumerals\RomanNumeralsKata.Tests\RomanNumeralsKata.Tests.csproj", "{D1F0E3C6-F310-442B-8AD5-253EC0621A43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicTacToe", "TicTacToe", "{2AA24860-95FD-4110-8F4C-B122F86FEC82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeKata", "TicTacToe\TicTacToeKata\TicTacToeKata.csproj", "{39ADD208-853B-44A9-AE8E-C7DF989F3207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeKata", "TicTacToe\TicTacToeKata\TicTacToeKata.csproj", "{39ADD208-853B-44A9-AE8E-C7DF989F3207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeKata.Tests", "TicTacToe\TicTacToeKata.Tests\TicTacToeKata.Tests.csproj", "{52C4319B-B419-412F-BECC-5B96A11FC01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeKata.Tests", "TicTacToe\TicTacToeKata.Tests\TicTacToeKata.Tests.csproj", "{52C4319B-B419-412F-BECC-5B96A11FC01E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalcStats", "CalcStats", "{225B3513-944F-419C-AC00-823C81FC0020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcStatsKata", "CalcStats\CalcStatsKata\CalcStatsKata.csproj", "{BF02078D-261F-4454-B4CE-24C333BBDEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcStatsKata.Tests", "CalcStats\CalcStatsKata.Tests\CalcStatsKata.Tests.csproj", "{636D51B6-CBC6-4E0A-BE8A-4A905488C30F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +85,14 @@ Global
 		{52C4319B-B419-412F-BECC-5B96A11FC01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C4319B-B419-412F-BECC-5B96A11FC01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C4319B-B419-412F-BECC-5B96A11FC01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF02078D-261F-4454-B4CE-24C333BBDEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF02078D-261F-4454-B4CE-24C333BBDEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF02078D-261F-4454-B4CE-24C333BBDEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF02078D-261F-4454-B4CE-24C333BBDEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636D51B6-CBC6-4E0A-BE8A-4A905488C30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636D51B6-CBC6-4E0A-BE8A-4A905488C30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636D51B6-CBC6-4E0A-BE8A-4A905488C30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636D51B6-CBC6-4E0A-BE8A-4A905488C30F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +108,8 @@ Global
 		{D1F0E3C6-F310-442B-8AD5-253EC0621A43} = {D05364F7-28F1-4EFF-A077-2AA118DD7E26}
 		{39ADD208-853B-44A9-AE8E-C7DF989F3207} = {2AA24860-95FD-4110-8F4C-B122F86FEC82}
 		{52C4319B-B419-412F-BECC-5B96A11FC01E} = {2AA24860-95FD-4110-8F4C-B122F86FEC82}
+		{BF02078D-261F-4454-B4CE-24C333BBDEFC} = {225B3513-944F-419C-AC00-823C81FC0020}
+		{636D51B6-CBC6-4E0A-BE8A-4A905488C30F} = {225B3513-944F-419C-AC00-823C81FC0020}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BEA26FD-9DE7-41C0-A346-0BD768B64D94}
